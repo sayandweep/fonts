@@ -1,11 +1,11 @@
 $(document).ready(function() {
 // Check if href is changed
-if ($("#mycontent").attr("href") != "https://www.example.com") {
- window.location.href = "https://www.example.com"; // Redirect destination link
+if ($("#mycontent").attr("href") != "https://wa.me/+917318839342?text=Hello%20Unikiz") {
+ window.location.href = "https://wa.me/+917318839342?text=Hello%20Unikiz"; // Redirect destination link
 };
     
 // Check if tag is hidden
 if ($("#mycontent").css('display') == 'none' || $("#mycontent").css("visibility") == "hidden"){
- window.location.href = "https://www.example.com"; // Redirect destination link
+ window.location.href = "https://wa.me/+917318839342?text=Hello%20Unikiz"; // Redirect destination link
 }
 });
