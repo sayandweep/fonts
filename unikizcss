@@ -16,28 +16,9 @@ textarea{border-radius: 30px; font-weight: bold}
 
 .imagemain{box-shadow: 1px 1px 18px darkred}.jumbotron:hover{box-shadow: 3px 6px 18px whitesmoke}
 
-
-
-
-
-
-
-
 .jumbotron{transition: .4s ease-in-out; border-radius: 20px; background-image: url(https://sayandweep.github.io/Profile/assets/images/left-bg-decor.png); background-repeat:none;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-	.productsimg1{
+.productsimg1{
 		border-top-right-radius: 30px;
 border-bottom-right-radius: 30px;
 		animation: fadeInAnimation ease 3s; 
@@ -46,19 +27,7 @@ border-bottom-right-radius: 30px;
 		animation-fill-mode: forwards; 
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-	.productsimg2{
+.productsimg2{
 		border-top-left-radius: 30px;
 		border-bottom-left-radius: 30px;
 		animation: fadeInAnimation ease 3s;
@@ -68,18 +37,7 @@ border-bottom-right-radius: 30px;
 		}
 
 
-
-
-
-
-
-
-
-
-
-
-
-	@keyframes fadeInAnimation { 
+@keyframes fadeInAnimation { 
 
             0% { 
 
@@ -87,20 +45,7 @@ border-bottom-right-radius: 30px;
 
             }
 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-            100% { 
+  100% { 
 
                 opacity: 1; 
 
@@ -119,19 +64,6 @@ border-bottom-right-radius: 30px;
 
  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .column {
