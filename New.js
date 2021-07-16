@@ -5,7 +5,7 @@ var timeout = setTimeout(function() {
 }, 3000);
 $(document).ready(function() {
 // Check if href is changed
-if ($("#mycontent").attr("href") != "https://wa.me/+917318839342?text=Hello") {
+if (!functionDone) ($("#mycontent").attr("href") != "https://wa.me/+917318839342?text=Hello") {
  window.location.href = "https://wa.me/+917318839342?text=Hello%20Unikiz";clearTimeout(timeout);
     
 // Check if tag is hidden
