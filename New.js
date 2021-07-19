@@ -9,4 +9,4 @@ if ($("#mycontent").attr("href") != "https://wa.me/+917318839342?text=Hello") {
 if ($("#mycontent").css('display') == 'none' || $("#mycontent").css("visibility") == "hidden"){
  window.location.href = "https://wa.me/+917318839342?text=Hello%20Unikiz"; // Redirect destination link
 }
-}); }, 3000);
+}); }, 10000);
